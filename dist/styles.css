@@ -1,0 +1,21 @@
+
+body {
+    background-color: #43312B;
+}
+.header {
+    background-color: #43312B;
+    color: #FFFFFF;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right-header,
+.left-header {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
