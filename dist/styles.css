@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body {
+    font-family: 'EB Garamond', serif;
     background-color: #43312B;
 }
 .header {
-    font-family: 'EB Garamond', serif;
     font-size: 24px;
     background-color: #43312B;
     color: #FFFFFF;
@@ -24,4 +24,15 @@ body {
 
 .menu {
     background-color: #FFFFFF;
+}
+#title {
+    text-decoration: underline;
+}
+.footer {
+    color: #D1A572;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-brand-info {
+    display: flex;
 }
